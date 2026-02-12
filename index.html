@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Mentoria 2026</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="checkout">
+
+    <div class="card">
+
+        <div class="ebook">
+            <span class="logo">Mentoria</span>
+            <small>Personalizada</small>
+        </div>
+
+        <h1>Finalizar Compra</h1>
+        <p class="desc">
+            Mentoria completa Trafego pago, criativos e estruturas de programação<br>
+            Acesso imediato após pagamento
+        </p>
+
+        <div class="price">
+            <span>Total</span>
+            <strong>R$ 17,00</strong>
+        </div>
+
+        <div class="pix-box">
+            <label>Chave Pix</label>
+            <input 
+                type="text" 
+                id="pixKey" 
+                value="8c10f0e3-6bab-4659-a749-a2796aab98bb"                readonly
+            >
+            <button onclick="copyPix()">Copiar Pix</button>
+        </div>
+
+        <div class="alert">
+            Após o pagamento, clique em <strong>“Já paguei”</strong>
+        </div>
+
+        <button class="btn" onclick="paid()">
+            Já paguei
+        </button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
